@@ -8,6 +8,8 @@ end
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
+page '/legal_mentions', layout: :layout
+
 # Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
